@@ -1,0 +1,8 @@
+:root {
+  --color-primary: #007bff;
+  --color-secondary: red;
+}
+
+th {
+  @apply py-1 px-2 #{!important};
+}

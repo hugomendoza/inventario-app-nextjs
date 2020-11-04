@@ -8,8 +8,24 @@
     "start": "next start"
   },
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "bootstrap": "^4.5.2",
     "next": "9.5.2",
+    "node-sass": "^4.14.1",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "purgecss": "^2.3.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-feather": "^2.0.8",
+    "react-filter-search": "^1.0.11",
+    "reactstrap": "^8.5.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "autoprefixer": "^9.8.6",
+    "next-purgecss": "^4.0.0",
+    "tailwindcss": "^1.7.0",
+    "tailwindcss-line-clamp": "^1.0.5"
   }
 }
